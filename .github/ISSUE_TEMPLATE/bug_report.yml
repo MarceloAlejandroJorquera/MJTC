@@ -1,0 +1,61 @@
+name: Bug report
+description: Report a reproducible problem in an MJTC binary release.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: input
+    id: version
+    attributes:
+      label: MJTC version
+      description: Example: v1
+      placeholder: v1
+    validations:
+      required: true
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Include edition/build when known.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Torrent source
+      options:
+        - .torrent file
+        - Magnet link
+        - Both / not source-specific
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give the shortest reliable sequence that reproduces the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add screenshots, relevant non-sensitive log excerpts, peer/network context, or whether restart/recheck changes the behavior.
