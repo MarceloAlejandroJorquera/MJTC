@@ -1,0 +1,59 @@
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+.vs/
+
+# IDE/user state
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+# Published binaries and local release staging
+release/
+releases/
+dist/
+publish/
+*.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Logs and diagnostics
+*.log
+*.dmp
+*.trace
+
+# Patch / temporary artifacts
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.patch
+*.diff
+
+# Local archives
+*.zip
+*.7z
+*.rar
+
+# GeoLite customizer input and generated compact assets
+Assets/GeoIP/GeoLite2-City.mmdb
+Assets/GeoIP/mjtc.mmdb.br
+Assets/GeoIP/mjtc.mmdb.br.fingerprint
+
+# Generated flag pack / obsolete generated layouts
+Assets/Flags/mjtc.flags.bin
+Assets/Flags/Generated/
+EmbeddedAssets/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
