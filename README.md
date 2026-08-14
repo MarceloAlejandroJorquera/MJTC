@@ -1,4 +1,4 @@
-# MJTC — Marcelo Jorquera's Torrent Client
+# MJTC — MJ Torrent Client
 
 <img width="1824" height="1023" alt="Screenshot_800" src="https://github.com/user-attachments/assets/62260826-6aac-418c-9825-2452974d1eca" />
 
